@@ -8,19 +8,34 @@ public class Main {
         long l = 9223372036854775807L;
         float f = 12.5F;
         float f1=30.5F;
-        double d;
+        double d,q,p;
         d = 12.77;
+        q=12.22;
+        p=11.11;
         char ch1 = 'Y';
         char ch2 = 'L';
         char ch3 = 65;
         char ch4 = 66;
         boolean b;
         b = true;
-        boolean q;
-        q = false;
+        boolean q1;
+        q1 = false;
         char chh = '1';
         char ch10 = 50;
+       short shortNumber;
+       shortNumber=Short.MAX_VALUE;
+        System.out.println("max value of short number is " + shortNumber);
+        int IntNumber;
+        IntNumber=Integer.MAX_VALUE;
+        System.out.println("max value of int number is " + IntNumber);
+        IntNumber=Integer.MIN_VALUE;
+        System.out.println("min value of int number is " + IntNumber);
 
+        byte qqq,ppp;
+        qqq=11;
+        ppp=22;
+        System.out.println(qqq);
+        System.out.println(ppp);
         System.out.println("s is: " + s);
         System.out.println("b1 is: " + b1);
         System.out.println("i is: " + i);
@@ -35,6 +50,11 @@ public class Main {
         System.out.println("q is: " + q);
         System.out.println("ch10 is: " + ch10);
         System.out.println("chh is: " + chh);
+        System.out.println("q1 is: " + q1);
+        System.out.println("p is: " + p);
+
+
+
 
 
 
