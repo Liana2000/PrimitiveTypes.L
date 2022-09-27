@@ -1,6 +1,6 @@
 package New;
 
-public class Character_Literals {
+public class CharacterLiterals {
     public static void main(String[] args) {
         //System.out.println('\011');
         // System.out.println('\u0011');
@@ -17,7 +17,7 @@ public class Character_Literals {
         System.out.println("ch1 is: " + ch1);
 
         System.out.println('\144');//Decimal char -8 akan {
-        System.out.println('\u0264'); //What  symbol is this? where is the logic?
+        System.out.println('\u0264');
 
         int a = 66;
         char ch2 = (char) a;
@@ -38,17 +38,15 @@ public class Character_Literals {
         System.out.println('\u0014'); //why does not print?
         System.out.println(0X24);
         //There is no any issue but it's does not print, why?
-        // int b=024;
-        // char chch=(char)b;
-        // System.out.println(chch);
+         int b=33;
+         char chch=(char)b;
+         System.out.println("chch is: "+ chch);
 
         System.out.println("he\bllo\b");
         System.out.println("hell\to");
         System.out.println("HIIII\nIII");
         System.out.println("Hell\ro");
         System.out.println("A\"BBB\"CCC\"D");
-        //  int z = 24\n56;
-        // System.out.println(z);//brings error in this case
 
         int x = 2;
         x = 4;
@@ -56,9 +54,9 @@ public class Character_Literals {
         System.out.println(x);
         int y = 10;
         float z = x / (x + y);
-        System.out.println(z);
+        System.out.println("z is: " + z);
         double q = x / (x + y);//Why the output is the same as it is in case of float?
-        System.out.println(q);
+        System.out.println("q is: "+ q);
 
         int l = 2 + 2;
         int l1 = l * 4;
@@ -72,9 +70,9 @@ public class Character_Literals {
         System.out.println("l4 = " + l4);
 
         double d = 2.11 + 2;
-        System.out.println(d);
+        System.out.println("d is:" + d);
         float f1 = 2.11f + 2; //Didn't get where is the logic?
-        System.out.println(f1);
+        System.out.println("F1 is:" + f1);
 
         int v = 1;
         float vv = 1.1f;
@@ -86,9 +84,9 @@ public class Character_Literals {
         int v22 = 14;
         int v2 = 96;
         float vv0 = v / v22;
-        System.out.println(vv0);//???
+        System.out.println(vv0);
         double vv3 = v / v22;
-        System.out.println(vv3); //????
+        System.out.println(vv3);
 
         int xxx = 19;
         double yyy = 10.0;

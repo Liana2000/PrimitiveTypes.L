@@ -1,4 +1,4 @@
-public class Main {
+public class PrimitiveTypes {
     public static void main(String[] args) {
         byte b1;
         b1 = -127;
